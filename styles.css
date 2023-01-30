@@ -1,0 +1,90 @@
+#main-doc {
+  background-color: #fffee6;
+  position: absolute;
+  margin-left: 200px;
+  margin-bottom: 110px;
+  padding: 5px;
+  font-family: sans-serif;
+  display: block;
+}
+
+.main-section {
+  border-bottom: 3px dashed  #663300;
+}
+
+header {
+  font-size: 24px;
+  font-weight: bold;
+text-decoration: underline;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: 663300;
+  color: #fffee6;
+  text-align: center;
+}
+
+#contact-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+img {
+  display: flex;
+  position: relative;
+  width: 50%;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 150px;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  border-right: solid;
+  background-color: #f2e6d9;
+  display: block;
+}
+
+#nav_header {
+  text-decoration: none;
+  font-size: 40px;
+  color: #ffffe6;
+  text-align: center;
+  border-bottom: solid black 2px;
+  background-image: url("https://assets.bonappetit.com/photos/5c366551f212512d0e6cefd0/16:9/w_2560%2Cc_limit/Basically-Coffee-0219-03.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#navbar h4 {
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: 20px;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+h4:hover{
+  background-color: #f2e6ff;
+}
+
+@media only screen and (max-width: 500px) {
+  #main-doc {
+    background-color: #663300;
+    color: white;
+  }
+  .main-section {
+  border-bottom: 3px dashed white;
+}
+}
